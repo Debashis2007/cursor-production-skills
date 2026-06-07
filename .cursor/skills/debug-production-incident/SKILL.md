@@ -2,9 +2,20 @@
 name: debug-production-incident
 version: 1.0.0
 category: operations
+tags:
+  - incident-response
+  - sre
+  - debugging
+  - observability
+  - postmortem
 platforms:
   - CLAUDE_CODE
   - CURSOR
+  - WINDSURF
+  - GITHUB_COPILOT
+  - CLINE
+  - CODEX_CLI
+  - GEMINI_CLI
 description: Structured triage → mitigation → root-cause flow for live production incidents. Use when a running system is degraded or down (errors, latency, outages) and you need to restore service safely and then find the cause.
 ---
 

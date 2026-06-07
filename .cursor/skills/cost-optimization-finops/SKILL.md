@@ -2,9 +2,20 @@
 name: cost-optimization-finops
 version: 1.0.0
 category: cloud
+tags:
+  - finops
+  - cost-optimization
+  - aws
+  - cloud
+  - devops
 platforms:
   - CLAUDE_CODE
   - CURSOR
+  - WINDSURF
+  - GITHUB_COPILOT
+  - CLINE
+  - CODEX_CLI
+  - GEMINI_CLI
 description: Build a defensible cloud cost-reduction plan without hurting reliability or velocity. Use when cloud spend is rising, before/after a scaling event, or during a FinOps review of AWS/GCP/Azure usage.
 ---
 

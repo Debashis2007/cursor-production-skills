@@ -2,7 +2,7 @@
 
 Design or review REST/RPC API contracts that are consistent, evolvable, and hard to misuse. Covers naming, HTTP semantics, error shapes, pagination, versioning, and idempotency.
 
-**Category:** architecture · **Version:** 1.0.0 · **Platforms:** Claude Code, Cursor
+**Category:** architecture · **Version:** 1.0.0 · **Platforms:** Claude Code, Cursor, Windsurf, Copilot, Cline, Codex CLI, Gemini CLI
 
 ## When to use
 

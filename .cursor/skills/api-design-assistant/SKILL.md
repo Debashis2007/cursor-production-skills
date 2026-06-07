@@ -2,9 +2,20 @@
 name: api-design-assistant
 version: 1.0.0
 category: architecture
+tags:
+  - api
+  - rest
+  - api-design
+  - http
+  - code-review
 platforms:
   - CLAUDE_CODE
   - CURSOR
+  - WINDSURF
+  - GITHUB_COPILOT
+  - CLINE
+  - CODEX_CLI
+  - GEMINI_CLI
 description: Design or review REST/RPC API contracts that are consistent, evolvable, and hard to misuse. Use when defining new endpoints, reviewing an API surface, or resolving naming/versioning/error-shape questions.
 ---
 

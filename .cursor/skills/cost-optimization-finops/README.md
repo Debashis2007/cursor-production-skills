@@ -2,7 +2,7 @@
 
 Build a defensible cloud cost-reduction plan without hurting reliability or velocity. Evidence-based, quantified, risk-rated recommendations ranked by savings ÷ risk.
 
-**Category:** cloud · **Version:** 1.0.0 · **Platforms:** Claude Code, Cursor
+**Category:** cloud · **Version:** 1.0.0 · **Platforms:** Claude Code, Cursor, Windsurf, Copilot, Cline, Codex CLI, Gemini CLI
 
 ## When to use
 

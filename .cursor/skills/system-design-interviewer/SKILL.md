@@ -2,9 +2,20 @@
 name: system-design-interviewer
 version: 1.0.0
 category: architecture
+tags:
+  - system-design
+  - architecture
+  - scalability
+  - interview
+  - distributed-systems
 platforms:
   - CLAUDE_CODE
   - CURSOR
+  - WINDSURF
+  - GITHUB_COPILOT
+  - CLINE
+  - CODEX_CLI
+  - GEMINI_CLI
 description: Pressure-test a system design or run a mock system-design interview. Use to evaluate a proposed architecture for scale, reliability, and trade-offs, or to practice interviews with structured feedback.
 ---
 

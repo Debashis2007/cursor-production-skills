@@ -2,9 +2,20 @@
 name: refactor-large-codebase
 version: 1.0.0
 category: code-quality
+tags:
+  - refactoring
+  - code-quality
+  - migration
+  - testing
+  - technical-debt
 platforms:
   - CLAUDE_CODE
   - CURSOR
+  - WINDSURF
+  - GITHUB_COPILOT
+  - CLINE
+  - CODEX_CLI
+  - GEMINI_CLI
 description: Safely change code at scale without altering behavior. Use for large renames, extracting modules, breaking up god classes, migrating frameworks/APIs, or paying down structural debt across many files.
 ---
 
