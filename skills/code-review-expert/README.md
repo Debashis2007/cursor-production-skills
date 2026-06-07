@@ -18,4 +18,4 @@ npx @skills-hub-ai/cli install code-review-expert --target cursor
 
 In chat: *"Use the code-review-expert skill on my staged diff."*
 
-See [`SKILL.md`](./SKILL.md) for the full checklist. Full written reviews use [`pr-review-template.md`](../../templates/pr-review-template.md).
+See [`SKILL.md`](./SKILL.md) for the full checklist. Full written reviews use [`pr-review-template.md`](../../.cursor/templates/pr-review-template.md).

@@ -62,7 +62,7 @@
 
 ## Reviewer notes
 
-> Reviewer fills this in. Rank findings by severity. See `.cursor/skills/code-review-expert.md`.
+> Reviewer fills this in. Rank findings by severity. See `skills/code-review-expert/SKILL.md`.
 
 **Overall assessment:** <!-- Approve / Approve-with-comments / Request changes -->
 

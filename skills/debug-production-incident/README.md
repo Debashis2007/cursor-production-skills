@@ -18,4 +18,4 @@ npx @skills-hub-ai/cli install debug-production-incident --target cursor
 
 In chat: *"Use the debug-production-incident skill. p99 on `/checkout` jumped to 4s after the 14:02 deploy."*
 
-See [`SKILL.md`](./SKILL.md) for the full playbook. Postmortems use [`incident-report-template.md`](../../templates/incident-report-template.md).
+See [`SKILL.md`](./SKILL.md) for the full playbook. Postmortems use [`incident-report-template.md`](../../.cursor/templates/incident-report-template.md).

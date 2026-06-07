@@ -27,6 +27,15 @@ Most AI-assisted coding fails the same way: inconsistent standards, security bli
 cursor-production-skills/
 ├── README.md
 ├── LICENSE
+├── skills/                            # Agent Skills (one folder per skill, standard location)
+│   ├── debug-production-incident/
+│   │   ├── SKILL.md
+│   │   └── README.md
+│   ├── api-design-assistant/
+│   ├── refactor-large-codebase/
+│   ├── system-design-interviewer/
+│   ├── cost-optimization-finops/
+│   └── code-review-expert/
 ├── .cursor/
 │   ├── rules/                         # Always-on engineering standards (.mdc)
 │   │   ├── 00-global-standards.mdc
@@ -35,13 +44,6 @@ cursor-production-skills/
 │   │   ├── 03-performance.mdc
 │   │   ├── 04-architecture.mdc
 │   │   └── 05-cloud-aws.mdc
-│   ├── skills/                        # Invokable playbooks (one folder per skill)
-│   │   ├── debug-production-incident/SKILL.md
-│   │   ├── api-design-assistant/SKILL.md
-│   │   ├── refactor-large-codebase/SKILL.md
-│   │   ├── system-design-interviewer/SKILL.md
-│   │   ├── cost-optimization-finops/SKILL.md
-│   │   └── code-review-expert/SKILL.md
 │   └── templates/                     # Reusable document scaffolds
 │       ├── pr-review-template.md
 │       ├── architecture-doc-template.md
@@ -51,27 +53,40 @@ cursor-production-skills/
     └── scaling-example.md
 ```
 
+> **Skill location:** Skills live in the top-level `skills/` directory — the standard,
+> tool-agnostic Agent Skills layout that skill hubs (skills-hub.ai, agentskillhub, `npx skills`)
+> and tools (Claude Code, Copilot, Cursor, Windsurf, …) auto-discover. The always-on
+> **rules** stay under `.cursor/` because that's Cursor's native location for them.
+
 ---
 
 ## Quick start
 
-1. **Copy into your project** (or use it as a template repo):
+1. **Install a skill** (works with Claude Code, Cursor, and any Agent Skills tool):
 
    ```bash
-   # Option A: copy the .cursor directory into an existing repo
-   cp -r cursor-production-skills/.cursor /path/to/your/project/
+   # via skills-hub.ai
+   npx @skills-hub-ai/cli install code-review-expert --target cursor
 
-   # Option B: clone and use as a starting point
-   git clone https://github.com/<you>/cursor-production-skills.git
+   # or via npx skills (vercel-labs/skills) straight from this repo
+   npx skills add <you>/cursor-production-skills
    ```
 
-2. **Open the project in Cursor.** Rules under `.cursor/rules/` are picked up automatically and apply to every request.
+2. **Or copy directly into your project:**
 
-3. **Invoke a skill** in chat when you need a specific workflow, e.g.:
+   ```bash
+   git clone https://github.com/<you>/cursor-production-skills.git
+   cp -r cursor-production-skills/skills/*    /path/to/your/project/.cursor/skills/   # Cursor
+   cp -r cursor-production-skills/.cursor/rules /path/to/your/project/.cursor/         # rules
+   ```
+
+3. **Open the project in Cursor.** Rules under `.cursor/rules/` are picked up automatically and apply to every request.
+
+4. **Invoke a skill** in chat when you need a specific workflow, e.g.:
 
    > "Use the debug-production-incident skill. Latency on `/checkout` p99 jumped from 200ms to 4s after the 14:02 deploy."
 
-4. **Use a template** by referencing it, e.g.:
+5. **Use a template** by referencing it, e.g.:
 
    > "Draft a PR description using `.cursor/templates/pr-review-template.md`."
 

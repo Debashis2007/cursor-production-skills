@@ -18,4 +18,4 @@ npx @skills-hub-ai/cli install api-design-assistant --target cursor
 
 In chat: *"Use the api-design-assistant skill to review the contract for `POST /payments`."*
 
-See [`SKILL.md`](./SKILL.md) for the full playbook and [`bad-vs-good-api-design.md`](../../../examples/bad-vs-good-api-design.md) for worked examples.
+See [`SKILL.md`](./SKILL.md) for the full playbook and [`bad-vs-good-api-design.md`](../../examples/bad-vs-good-api-design.md) for worked examples.
