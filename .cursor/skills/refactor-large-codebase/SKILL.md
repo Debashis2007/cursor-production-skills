@@ -1,5 +1,10 @@
 ---
 name: refactor-large-codebase
+version: 1.0.0
+category: code-quality
+platforms:
+  - CLAUDE_CODE
+  - CURSOR
 description: Safely change code at scale without altering behavior. Use for large renames, extracting modules, breaking up god classes, migrating frameworks/APIs, or paying down structural debt across many files.
 ---
 

@@ -1,5 +1,10 @@
 ---
 name: api-design-assistant
+version: 1.0.0
+category: architecture
+platforms:
+  - CLAUDE_CODE
+  - CURSOR
 description: Design or review REST/RPC API contracts that are consistent, evolvable, and hard to misuse. Use when defining new endpoints, reviewing an API surface, or resolving naming/versioning/error-shape questions.
 ---
 

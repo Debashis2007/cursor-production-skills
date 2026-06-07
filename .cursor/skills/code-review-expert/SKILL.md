@@ -1,5 +1,10 @@
 ---
 name: code-review-expert
+version: 1.0.0
+category: code-quality
+platforms:
+  - CLAUDE_CODE
+  - CURSOR
 description: Rigorous, severity-ranked review of a diff, PR, or file. Use when you want a thorough check of correctness, security, performance, design, readability, and test coverage with actionable feedback.
 ---
 

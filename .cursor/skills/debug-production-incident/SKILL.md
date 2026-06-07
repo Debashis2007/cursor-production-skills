@@ -1,5 +1,10 @@
 ---
 name: debug-production-incident
+version: 1.0.0
+category: operations
+platforms:
+  - CLAUDE_CODE
+  - CURSOR
 description: Structured triage → mitigation → root-cause flow for live production incidents. Use when a running system is degraded or down (errors, latency, outages) and you need to restore service safely and then find the cause.
 ---
 
