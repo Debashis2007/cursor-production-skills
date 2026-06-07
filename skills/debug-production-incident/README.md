@@ -2,7 +2,7 @@
 
 Structured triage → mitigation → root-cause flow for live production incidents. Restores service first, then finds the cause — with evidence, a running timeline, and reversible mitigations.
 
-**Category:** operations · **Version:** 1.0.0 · **Platforms:** Claude Code, Cursor, Windsurf, Copilot, Cline, Codex CLI, Gemini CLI
+**Category:** ops · **Version:** 1.0.0 · **Platforms:** Claude Code, Cursor, Windsurf, Copilot, Cline, Codex CLI, Gemini CLI
 
 ## When to use
 

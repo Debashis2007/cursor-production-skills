@@ -2,7 +2,7 @@
 
 Pressure-test a system design or run a mock system-design interview. Drives the conversation through requirements, estimation, design, deep dives, reliability, and trade-offs — always pulling back to numbers and failure modes.
 
-**Category:** architecture · **Version:** 1.0.0 · **Platforms:** Claude Code, Cursor, Windsurf, Copilot, Cline, Codex CLI, Gemini CLI
+**Category:** analysis · **Version:** 1.0.0 · **Platforms:** Claude Code, Cursor, Windsurf, Copilot, Cline, Codex CLI, Gemini CLI
 
 ## When to use
 

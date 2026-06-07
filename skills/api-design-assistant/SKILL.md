@@ -1,7 +1,7 @@
 ---
 name: api-design-assistant
 version: 1.0.0
-category: architecture
+category: build
 tags:
   - api
   - rest
@@ -12,7 +12,7 @@ platforms:
   - CLAUDE_CODE
   - CURSOR
   - WINDSURF
-  - GITHUB_COPILOT
+  - COPILOT
   - CLINE
   - CODEX_CLI
   - GEMINI_CLI

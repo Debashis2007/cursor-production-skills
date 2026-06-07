@@ -2,7 +2,7 @@
 
 Rigorous, severity-ranked review of a diff, PR, or file — correctness, security, performance, design, readability, tests, and operability. Specific, prioritized, and actionable feedback.
 
-**Category:** code-quality · **Version:** 1.0.0 · **Platforms:** Claude Code, Cursor, Windsurf, Copilot, Cline, Codex CLI, Gemini CLI
+**Category:** review · **Version:** 1.0.0 · **Platforms:** Claude Code, Cursor, Windsurf, Copilot, Cline, Codex CLI, Gemini CLI
 
 ## When to use
 

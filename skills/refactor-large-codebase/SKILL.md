@@ -1,7 +1,7 @@
 ---
 name: refactor-large-codebase
 version: 1.0.0
-category: code-quality
+category: build
 tags:
   - refactoring
   - code-quality
@@ -12,7 +12,7 @@ platforms:
   - CLAUDE_CODE
   - CURSOR
   - WINDSURF
-  - GITHUB_COPILOT
+  - COPILOT
   - CLINE
   - CODEX_CLI
   - GEMINI_CLI

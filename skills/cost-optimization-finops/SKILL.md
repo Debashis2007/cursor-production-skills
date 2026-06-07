@@ -1,7 +1,7 @@
 ---
 name: cost-optimization-finops
 version: 1.0.0
-category: cloud
+category: ops
 tags:
   - finops
   - cost-optimization
@@ -12,7 +12,7 @@ platforms:
   - CLAUDE_CODE
   - CURSOR
   - WINDSURF
-  - GITHUB_COPILOT
+  - COPILOT
   - CLINE
   - CODEX_CLI
   - GEMINI_CLI

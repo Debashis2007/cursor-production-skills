@@ -1,7 +1,7 @@
 ---
 name: code-review-expert
 version: 1.0.0
-category: code-quality
+category: review
 tags:
   - code-review
   - code-quality
@@ -12,7 +12,7 @@ platforms:
   - CLAUDE_CODE
   - CURSOR
   - WINDSURF
-  - GITHUB_COPILOT
+  - COPILOT
   - CLINE
   - CODEX_CLI
   - GEMINI_CLI

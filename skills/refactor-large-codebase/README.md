@@ -2,7 +2,7 @@
 
 Safely change code at scale without altering behavior. Small, verifiable, reversible steps with a test safety net and the expand → migrate → contract pattern.
 
-**Category:** code-quality · **Version:** 1.0.0 · **Platforms:** Claude Code, Cursor, Windsurf, Copilot, Cline, Codex CLI, Gemini CLI
+**Category:** build · **Version:** 1.0.0 · **Platforms:** Claude Code, Cursor, Windsurf, Copilot, Cline, Codex CLI, Gemini CLI
 
 ## When to use
 
