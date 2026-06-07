@@ -28,13 +28,13 @@ cursor-production-skills/
 ├── README.md
 ├── LICENSE
 ├── .cursor/
-│   ├── rules/                         # Always-on engineering standards
-│   │   ├── 00-global-standards.md
-│   │   ├── 01-code-quality.md
-│   │   ├── 02-security.md
-│   │   ├── 03-performance.md
-│   │   ├── 04-architecture.md
-│   │   └── 05-cloud-aws.md
+│   ├── rules/                         # Always-on engineering standards (.mdc)
+│   │   ├── 00-global-standards.mdc
+│   │   ├── 01-code-quality.mdc
+│   │   ├── 02-security.mdc
+│   │   ├── 03-performance.mdc
+│   │   ├── 04-architecture.mdc
+│   │   └── 05-cloud-aws.mdc
 │   ├── skills/                        # Invokable, task-specific playbooks
 │   │   ├── debug-production-incident.md
 │   │   ├── api-design-assistant.md
@@ -83,12 +83,12 @@ cursor-production-skills/
 
 | File | Enforces |
 | --- | --- |
-| `00-global-standards.md` | Communication style, definition of done, how the agent should behave |
-| `01-code-quality.md` | Readability, naming, testing, error handling, dependency hygiene |
-| `02-security.md` | Input validation, authN/Z, secrets, OWASP Top 10, supply chain |
-| `03-performance.md` | Big-O awareness, N+1 queries, caching, memory, profiling-first |
-| `04-architecture.md` | Boundaries, coupling, API contracts, idempotency, observability |
-| `05-cloud-aws.md` | Least privilege IAM, networking, resilience, tagging, cost-aware infra |
+| `00-global-standards.mdc` | Communication style, definition of done, how the agent should behave |
+| `01-code-quality.mdc` | Readability, naming, testing, error handling, dependency hygiene |
+| `02-security.mdc` | Input validation, authN/Z, secrets, OWASP Top 10, supply chain |
+| `03-performance.mdc` | Big-O awareness, N+1 queries, caching, memory, profiling-first |
+| `04-architecture.mdc` | Boundaries, coupling, API contracts, idempotency, observability |
+| `05-cloud-aws.mdc` | Least privilege IAM, networking, resilience, tagging, cost-aware infra |
 
 ### Skills (invoke on demand)
 
