@@ -35,13 +35,13 @@ cursor-production-skills/
 │   │   ├── 03-performance.mdc
 │   │   ├── 04-architecture.mdc
 │   │   └── 05-cloud-aws.mdc
-│   ├── skills/                        # Invokable, task-specific playbooks
-│   │   ├── debug-production-incident.md
-│   │   ├── api-design-assistant.md
-│   │   ├── refactor-large-codebase.md
-│   │   ├── system-design-interviewer.md
-│   │   ├── cost-optimization-finops.md
-│   │   └── code-review-expert.md
+│   ├── skills/                        # Invokable playbooks (one folder per skill)
+│   │   ├── debug-production-incident/SKILL.md
+│   │   ├── api-design-assistant/SKILL.md
+│   │   ├── refactor-large-codebase/SKILL.md
+│   │   ├── system-design-interviewer/SKILL.md
+│   │   ├── cost-optimization-finops/SKILL.md
+│   │   └── code-review-expert/SKILL.md
 │   └── templates/                     # Reusable document scaffolds
 │       ├── pr-review-template.md
 │       ├── architecture-doc-template.md
